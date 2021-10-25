@@ -12,7 +12,7 @@ const INITIAL_USERS = [
 
 function App() {
   const [usersList, setUsersList] = useState(INITIAL_USERS);
-  const [showModal, setShowModal] = useState({ show: false, message: "" });
+  const [showModal, setShowModal] = useState({ show: false, title:"", message: "" });
 
   const addUserHandler = (user) => {
     user.key = usersList.length;
@@ -26,17 +26,23 @@ function App() {
   };
 
   return (
-    <Card>
-      <NewUserForm onAddUser={addUserHandler} onShowModal={showModalHandler} />
+    <div>
       {showModal.show && (
         <ErrorModal
-        value={showModal.show}
-        message={showModal.message}
-        onShowModal={showModalHandler}
+          value={showModal.show}
+          title={showModal.title}
+          message={showModal.message}
+          onShowModal={showModalHandler}
         />
-        )}
-        <UsersList users={usersList}/>
-    </Card>
+      )}
+      <Card>
+        <NewUserForm
+          onAddUser={addUserHandler}
+          onShowModal={showModalHandler}
+        />
+        <UsersList users={usersList} />
+      </Card>
+    </div>
   );
 }
 
