@@ -1,0 +1,50 @@
+.new-user-form {
+    width: 50rem;
+    max-width: 95%;
+    background-color: rgb(185, 125, 241);
+    margin: auto;
+    margin-bottom: 1rem;
+    border-style: double;
+    border-color: darkblue;
+    border-width: .4rem;
+    border-radius: 12px;
+
+
+}
+
+.new-user-form form{
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+.new-user-form button{
+    width: 15rem;
+    background-color: darkblue;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: .5rem;
+    text-align: center;
+    padding: .25rem;
+    max-width: 50%;
+}
+
+.new-user-form input{
+    width: 10rem;
+    font-size: 1rem;
+    margin: .5rem;
+    border-radius: 1rem;
+    border-color: transparent;
+    background-color: lightcyan;
+    max-width: 100%;
+    padding: .35rem;
+    margin-inline: .5rem;
+}
+
+.new-user-form label{
+    color: rgb(0, 0, 88);
+}

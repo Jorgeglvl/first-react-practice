@@ -1,0 +1,24 @@
+.modal {
+  position: sticky;
+  width: 30rem;
+  max-width: 95%;
+  background-color: rgb(253, 183, 175);
+  margin: auto;
+  border-left: solid red;
+  border-width: .4rem;
+  padding: 2px;
+}
+
+.modal p{
+    text-align: center;
+    padding: 1rem;
+    font-variant: small-caps;
+}
+
+.modal-button-close {
+    background: red;
+    padding: .25rem;
+    float: right;
+    border-style: outset;
+    border-color: red;
+}

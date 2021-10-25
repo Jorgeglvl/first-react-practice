@@ -1,0 +1,15 @@
+.users {
+    border-radius: 12px;
+    box-shadow: rgb(104, 104, 104);
+    width: 50rem;
+    background-color: rgb(184, 234, 247);
+    margin: auto;
+    max-width: 95%;
+    padding: 1rem;
+    border-style: dashed;
+    border-color: cadetblue;
+}
+
+.users ul{
+    list-style-type: none;
+}

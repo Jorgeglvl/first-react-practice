@@ -1,0 +1,16 @@
+.user div{
+    border-style: solid;
+    border-color: rgb(3, 10, 110);
+    border-radius: 1rem;
+    margin: 5px;
+    background-color: rgb(44, 139, 177);
+    width: 95%;
+}
+
+.user h2{
+    text-align: center;
+    margin: 3px;
+    font-size: 1rem;
+    font-variant: small-caps;
+    color: lightcyan;
+}
